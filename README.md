@@ -61,5 +61,11 @@ Downloaded Terraform and added to system PATH.
 Configured AWS CLI using:
 ```bash
 aws configure
+: Create main.tf
+
+terraform init
+terraform plan
+terraform apply   #to run
+terraform destroy #to destroy
 
 
