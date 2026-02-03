@@ -31,5 +31,35 @@ Step 8: Launch Instance
 Review details
 Click Launch Instance
 
+# Terraform EC2 Task 2
+
+## Objective
+Learn AWS core concepts and Terraform.  
+Launch an EC2 instance manually and using Terraform.
+
+---
+
+## Part 1: Launch EC2 Manually
+
+1. Logged into AWS Console
+2. Navigated to EC2 Dashboard
+3. Clicked Launch Instance
+4. Selected Amazon Linux 2 AMI
+5. Selected instance type t3.micro (Free Tier)
+6. Created a key pair `task2-key`
+7. Allowed SSH in Security Group
+8. Launched the instance
+
+---
+
+## Part 2: Launch EC2 Using Terraform
+
+### Installed Terraform
+Downloaded Terraform and added to system PATH.
+
+### Installed AWS CLI
+Configured AWS CLI using:
+```bash
+aws configure
 
 
